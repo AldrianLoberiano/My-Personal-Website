@@ -1,0 +1,307 @@
+/*Navigation bar*/
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: rgb(23, 37, 109);
+            }
+li{
+    float: right;
+            }
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+            }
+li a:hover{
+            background-color: rgb(0, 48, 161);
+            }
+/*Until Here*/
+.HOME{
+        color: rgb(255, 255, 255);
+        font-family: sans-serif; 
+        margin-right: 60px;      
+        padding-right: 50px; 
+            }
+.homes{
+        position: relative;
+        top: 90px;
+        color: yellow;
+        text-align: center;
+        margin-left: 550px;
+        font-size: 50px;
+            }
+.shifted-text{
+        position: relative;
+        top: 60px;
+        font-size: 70px;
+        left: 90px;
+            }
+.button1{ /*Exlore Button*/
+        position: relative;
+        background-color: blue;
+        border:none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        top: 20px;
+        left: 395px;
+            }
+.ABOUTME{
+        color: white;
+        font-family: sans-serif;
+        font-size: larger;
+        text-align: justify;
+        margin-left: 10px;
+        padding: 65px;
+            }
+.about{
+        position: relative;
+        text-align: left;
+        margin-left: -50px;
+        top: 5px;
+            }
+.shifted-text1{
+        position: relative;
+            }
+.PROJECTS{
+        color: white;
+        font-family: sans-serif;
+        font-size: larger;
+        text-align: justify;
+        margin-left: 10px;
+        padding: 65px;
+            }
+.project{
+        position: relative;
+        text-align: left;
+        margin-left: -50px;
+        top: 5px;
+            }
+.shifted-text2{
+        position: relative;
+        font-size: larger;
+        text-align: left;
+        margin-left: 100px;
+        padding-left: 10px;
+            }
+.addrecords{
+        float: none;
+        margin-right: 250px;
+        padding-right: 200px;
+        width: 10px;
+            }
+.homepage{
+        float: none;
+        margin-top: -990px;
+        padding-left: 90px; 
+            }
+.shifted-text3{
+        position: relative;
+        font-size: larger;
+        text-align: center;
+        margin-left: 100px;
+        margin-top: -20px;
+            }
+.SKILLS{
+        color: white;
+        font-family: sans-serif;
+        font-size: larger;
+        margin-left: 10px;
+        padding: 65px;
+            }
+.skill{
+        position: relative;
+        text-align: left;
+        margin-left: -50px;
+        top: 5px;
+            }
+.canva{
+        position: relative;
+        right: 410px;
+        margin-right: 230px;
+        padding-right: 100px;
+        top: 50px;
+            }
+.photoshop{
+        position: relative;
+        right:240px;
+        top: -131px;
+            }
+.figma{
+        position: relative;
+        bottom: 320px;
+        left: 70px;
+        margin-left: 1px;
+            }
+.software{
+        font-family: sans-serif;
+        font-style: italic;
+            }
+.html{
+        position: relative;
+        bottom: 160px;
+        padding-right:250px;
+        right: 290px;
+            }
+.css{
+        position: relative;
+        bottom: 340px;
+        right: 65px;
+            }
+.CONTACT{
+        color: white;
+        font-family: sans-serif;
+        font-size: larger;
+        margin-left: 10px;
+        padding: 65px;
+            }
+.contact{
+        position: relative;
+        text-align: left;
+        margin-left: -50px;
+        top: 5px;
+            }
+.telephone{
+        position: relative;
+        margin-right: 250px;
+        padding-right:395px;
+        top: 40px;
+            }
+.shifted-text4{
+        position: relative;
+        text-align: center;
+        right: auto;
+            }
+.envelope{
+        position: relative;
+        bottom: 120px;
+        margin-left: 15px;
+            }
+.shifted-text5{
+        position: relative;
+        text-align: center;
+            }
+.location{
+        position: relative;
+        margin-left: 399px;
+        padding-left: 300px;
+        bottom: 280px;
+            }
+.shifted-text6{
+        position: relative;
+        text-align: center;
+        left: auto;
+            }
+.shifted-text7{
+        position: relative;
+        bottom: 160px;
+        text-align: center;
+            }
+.names{
+        position: absolute;
+        left: 208px;
+        margin-left: 199px;
+        padding-left: 100px;
+            }
+.input-name{
+        position: relative;
+        width: 400px;
+        height: 11px;
+        padding: 10px;
+        font-size: 16px;
+        bottom: 150px;
+        border-radius: 10px;
+        right: 130px;
+            }
+.emails{
+        position: absolute;
+        left: 100px;
+        margin-left: 360px;
+        top: 400px;
+        margin-top: 250px;
+            }
+.input-email{
+        position: relative;
+        width: 400px;
+        height: 13px;
+        padding: 10px;
+        font-size: 16px;
+        bottom: 155px;
+        right: 130px;
+        border-radius: 10px;
+            }
+.message{
+        position: absolute;
+        left: 270px;
+        margin-left: 250px;
+        top: 170px;
+        margin-top: 529px;
+        bottom: 100px;    
+            }
+.input-message{
+        position: relative;
+        width: 400px;
+        height: 210px;
+        padding: 10px;
+        font-size: 16px;
+        bottom: 160px;
+        right: 130px;
+        border-radius: 10px;
+            }
+label{ /*Contacts*/
+        position: relative;
+        font-size: 25px;
+        font-weight: 10px;
+        color: rgb(255, 255, 255);
+        bottom: 150px;
+        right: 140px;
+            }
+.button{ /*Sent Button*/
+        position: relative;
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 190px;
+        left: 350px;
+        margin-left: 310px ;
+            }
+label1{ 
+        position: relative;
+        font-size: 25px;
+        font-weight: 10px;
+        color: white;
+        bottom: 250px;
+        right: 140px;
+            }
+img{
+        display: block;
+        margin: auto;
+            }
+body{
+        background-color: #1e1c1c;
+            }
+table{
+        width: 100%;
+        padding-left: 0px;
+        height: 1vh;
+        border: #000000;
+        background-color: rgb(6, 6, 24);
+            }
